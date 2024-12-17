@@ -2,12 +2,13 @@ import React from 'react'
 import { MdOutlineMessage } from "react-icons/md";
 import { IoBagRemove } from "react-icons/io5";
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Checkout = () => {
   return (
     <div className="w-full">
       <div className="flex items-center justify-between">
-        <img src="/img/Frame1.png" alt="Nike Logo" className="ml-4" />
+        <Image src="/img/Frame1.png" alt="Nike Logo" className="ml-4" />
         <div className="flex gap-10 m-2">
           000 800 100 9538
           <MdOutlineMessage className="mt-1" />
@@ -138,7 +139,7 @@ const Checkout = () => {
           <div className="mt-6">
             <h3 className="text-lg font-semibold mb-4">Arrives Mon, 27 Mar - Wed, 12 Apr</h3>
             <div className="flex items-center space-x-4">
-              <img
+              <Image
                 src="/img/Frame (9).png"
                 alt="Product Image"
                 className="w-52 h-52 object-cover"
@@ -153,7 +154,7 @@ const Checkout = () => {
 
             <div className="mt-6">
               <div className="flex items-center space-x-4">
-                <img
+                <Image
                   src="/img/Frame (11).png"
                   alt="Product Image"
                   className="w-52 h-52 object-cover"

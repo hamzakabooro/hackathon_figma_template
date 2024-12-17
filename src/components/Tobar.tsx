@@ -1,12 +1,13 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Tobar = () => {
   return (
     <div>
       <div className="w-full bg-[#F5F5F5] flex justify-between items-center px-4 py-2 md:px-10">
 
-        <img
+        <Image
           src="/img/Frame.png"
           alt="Logo"
           className="h-6 md:h-8 object-contain"

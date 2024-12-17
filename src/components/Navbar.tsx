@@ -2,13 +2,14 @@
 import { CiSearch } from "react-icons/ci";
 import { FaRegHeart } from "react-icons/fa";
 import { IoBagRemove } from "react-icons/io5";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
     <div className="w-full bg-white shadow-md">
       <div className="flex items-center justify-between px-4 py-3 lg:px-8">
         
-        <img
+        <Image
           src="/img/Frame1.png"
           alt="logo2"
           className="h-8 sm:h-10"

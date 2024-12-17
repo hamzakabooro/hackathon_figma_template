@@ -2,6 +2,7 @@ import React from 'react';
 import { FaRegHeart } from "react-icons/fa";
 import { MdDeleteOutline } from "react-icons/md";
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Cart = () => {
   return (
@@ -17,7 +18,7 @@ const Cart = () => {
           <h1 className="text-xl md:text-2xl font-bold mb-4">Bag</h1>
 
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between border-b pb-4 mb-4">
-            <img
+            <Image
               src="/img/Cart_farem.png"
               alt="Nike Dri-FIT"
               className="w-24 h-24 object-cover rounded-lg"

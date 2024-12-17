@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const ProductDetail = () => {
   return (
@@ -7,7 +8,7 @@ const ProductDetail = () => {
       <section className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
 
         <div className="border rounded-lg p-4 shadow-md">
-          <img
+          <Image
             src="/img/Rectangle (1).png"
             alt="Nike Air Force 1 PLT.AF.ORM"
             className="w-full h-96 object-cover rounded-md"
