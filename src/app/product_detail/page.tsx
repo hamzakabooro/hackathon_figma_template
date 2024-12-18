@@ -5,18 +5,19 @@ import Image from 'next/image';
 const ProductDetail = () => {
   return (
     <div>
-      <section className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <section className="mt-12  p-28 grid grid-cols-1 md:grid-cols-2 gap-8">
 
-        <div className="border rounded-lg p-4 shadow-md">
+        <div className='p-10'>
           <Image
             src="/img/Rectangle (1).png"
             alt="Nike Air Force 1 PLT.AF.ORM"
-            className="w-full h-96 object-cover rounded-md"
+            width={1000} height={100}
+            className="w-full h-[600px] object-cover rounded-md"
           />
         </div>
 
 
-        <div className="border rounded-lg p-6 shadow-md w-full md:max-w-md">
+        <div className=" p-10  w-full md:max-w-md">
           <h2 className="font-bold text-xl">
             Nike Air Force 1 <br /> PLT.AF.ORM
           </h2>

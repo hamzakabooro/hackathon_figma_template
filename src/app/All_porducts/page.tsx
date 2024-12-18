@@ -67,7 +67,10 @@ const All_products = () => {
           <h1 className="font-bold ml-2">New (500)</h1>
           <div className="flex gap-10 m-2">
             Hide Filters
-            <img src="/img/Frame (13).png" alt="Filter Icon" />
+            <Image src="/img/Frame (13).png" alt="Filter Icon" 
+             width={20}
+             height={30}
+            />
             <IoChevronDownOutline className="m-1 mr-8" />
           </div>
         </div>

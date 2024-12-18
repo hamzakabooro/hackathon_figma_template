@@ -12,7 +12,7 @@ const Login = () => {
           <Image 
             src="/img/Frame1.png" 
             alt="Nike logo" 
-            width={200} 
+            width={100} 
             height={100} 
             className="object-contain" 
           />

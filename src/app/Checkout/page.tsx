@@ -8,7 +8,7 @@ const Checkout = () => {
   return (
     <div className="w-full">
       <div className="flex items-center justify-between">
-        <Image src="/img/Frame1.png" alt="Nike Logo" className="ml-4" />
+        <Image src="/img/Frame1.png" alt="Nike Logo" width={50} height={100} className="ml-4" />
         <div className="flex gap-10 m-2">
           000 800 100 9538
           <MdOutlineMessage className="mt-1" />
@@ -142,6 +142,7 @@ const Checkout = () => {
               <Image
                 src="/img/Frame (9).png"
                 alt="Product Image"
+                width={1000} height={1000}
                 className="w-52 h-52 object-cover"
               />
               <div>
@@ -157,6 +158,7 @@ const Checkout = () => {
                 <Image
                   src="/img/Frame (11).png"
                   alt="Product Image"
+                  width={1000} height={1000}
                   className="w-52 h-52 object-cover"
                 />
                 <div>

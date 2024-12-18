@@ -1,8 +1,9 @@
 import React from 'react';
 
 import { IoSearchOutline } from "react-icons/io5";
-import { FaMobileAlt, FaCommentAlt,  } from "react-icons/fa";
+import { FaMobileAlt,} from "react-icons/fa";
 import { LuMessageSquareMore } from "react-icons/lu"; 
+import Image from 'next/image';
 
 const ContactUs = () => {
   return (
@@ -11,7 +12,7 @@ const ContactUs = () => {
       <div className="max-w-6xl mx-auto p-4 flex gap-6">
 
     
-        <div className="bg-white shadow-md rounded-lg w-2/3 p-6">
+        <div className="w-2/3 p-6">
           <h1 className="text-3xl font-bold text-center mb-6">GET HELP</h1>
 
       
@@ -93,8 +94,8 @@ const ContactUs = () => {
 
             <p>Was this answer helpful?</p>
             <div className='flex gap-3'>
-              <img src="/img/Vector.png" alt="vector icon" className='text-[#111111]' />
-              <img src="/img/Vector (1).png" alt=" vector icon2" className='text-[#111111]' />
+              <Image src="/img/Vector.png" alt="vector icon" width={20} height={20} className='text-[#111111]' />
+              <Image src="/img/Vector (1).png" alt=" vector icon2" width={20} height={20} className='text-[#111111]' />
               </div>
 
             <h2 className="font-medium mt-1 text-[#757575]">RELATED</h2>
@@ -106,15 +107,15 @@ const ContactUs = () => {
         </div>
 
         
-        <div className="bg-white shadow-md rounded-lg w-1/3 p-6">
-          <h2 className="text-xl font-bold mb-6">Contact Us</h2>
+        <div className=" w-1/3 p-6 mt-32">
+          <h2 className="text-4xl font-bold mb-6 pl-10 text-[#111111]">CONTACT US</h2>
 
           
           <div className="flex flex-col items-center gap-6">
             <div className="flex flex-col items-center">
               <FaMobileAlt className="w-16 h-16 my-3" />
               <p className="font-semibold">Call Us</p>
-              <p>000 800 919 0566</p>
+              <p>03163465292</p>
               <p className="text-sm text-gray-600">Products & Orders: 24 hours a day, 7 days a week</p>
               <p className="text-sm text-gray-600">Company Info & Enquiries: 07:30 - 16:30, Monday - Friday</p>
             </div>
@@ -126,13 +127,13 @@ const ContactUs = () => {
             </div>
 
             <div className="flex flex-col items-center">
-              <FaCommentAlt className="w-16 h-16 my-3" />
+            <Image src={'/img/Image (13).png'} alt='icons' width={80} height={100}/>
               <p className="font-semibold">Customer Support</p>
               <p>24 hours a day, 7 days a week</p>
             </div>
+            <Image src={'/img/Image (12).png'} alt='icons' width={80} height={100}/>
 
             <div className="flex flex-col items-center">
-              
               <p className="font-semibold">Store Locator</p>
               <p>Find Nike retail stores near you.</p>
             </div>

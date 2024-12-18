@@ -21,6 +21,7 @@ const Cart = () => {
             <Image
               src="/img/Cart_farem.png"
               alt="Nike Dri-FIT"
+              width={200} height={100}
               className="w-24 h-24 object-cover rounded-lg"
             />
             <div className="flex-1 ml-0 md:ml-4 mt-2 md:mt-0">
