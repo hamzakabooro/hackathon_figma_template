@@ -7,12 +7,12 @@ const ProductDetail = () => {
     <div>
       <section className="mt-12  p-28 grid grid-cols-1 md:grid-cols-2 gap-8">
 
-        <div className='p-10'>
+        <div>
           <Image
             src="/img/Rectangle (1).png"
             alt="Nike Air Force 1 PLT.AF.ORM"
-            width={1000} height={100}
-            className="w-full h-[600px] object-cover rounded-md"
+            width={1000} height={1000}
+            className= " w-full h-[600px] object-cover rounded-md"
           />
         </div>
 
