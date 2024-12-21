@@ -26,7 +26,7 @@ const Cart = () => {
             />
             <div className="flex-1 ml-0 md:ml-4 mt-2 md:mt-0">
               <h2 className="font-semibold text-lg">Nike Dri-FIT ADV TechKnit Ultra</h2>
-              <p className="text-sm text-gray-500">Men's Short-Sleeve Running Top</p>
+              <p className="text-sm text-gray-500">Mens Short-Sleeve Running Top</p>
               <p className="text-sm text-gray-500">Ashen Slate/Cobalt Bliss</p>
               <p className="text-sm text-gray-500">Size: L &nbsp; | &nbsp; Quantity: 1</p>
               <div className="flex gap-3 pt-3">
@@ -43,7 +43,7 @@ const Cart = () => {
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between border-b pb-4 mb-4">
             <div className="flex-1 ml-0 md:ml-28 mt-2 md:mt-0">
               <h2 className="font-semibold text-lg">Nike Air Max 97 SE</h2>
-              <p className="text-sm text-gray-500">Men's Shoes</p>
+              <p className="text-sm text-gray-500">Men&nbsp;s Shoes</p>
               <p className="text-sm text-gray-500">Flat Pewter/Light Bone/Black/White</p>
               <p className="text-sm text-gray-500">Size: 8 &nbsp; | &nbsp; Quantity: 1</p>
               <div className="flex gap-3 pt-3">

@@ -85,7 +85,7 @@ const ContactUs = () => {
             
             <div className="mb-4">
               <h3 className="font-bold">
-                Why don’t I see Apple Pay as an option?
+                Why don&nbsp;t I see Apple Pay as an option?
               </h3>
               <p className="mt-1 text-sm">
                 You need a compatible Apple device running the latest OS, signed into iCloud, and using Safari to see Apple Pay on Nike.com.
@@ -100,7 +100,7 @@ const ContactUs = () => {
 
             <h2 className="font-medium mt-1 text-[#757575]">RELATED</h2>
             <div className="w-full mt-8">
-              <h1>WHAT ARE NIKE'S DELIVERY OPTIONS?</h1>
+              <h1>WHAT ARE NIKE&nbsp;S DELIVERY OPTIONS?</h1>
               <h1 className="underline">HOW DO I GET FREE DELIVERY ON NIKE ORDERS?</h1>
             </div>
           </div>

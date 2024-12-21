@@ -68,7 +68,7 @@ const Checkout = () => {
             </div>
           </form>
 
-          <h3 className="text-lg font-semibold mb-4">What’s your contact information?</h3>
+          <h3 className="text-lg font-semibold mb-4">What&nbsp;s your contact information?</h3>
           <form className="grid grid-cols-2 gap-4 mb-6">
             <input
               type="email"
@@ -82,7 +82,7 @@ const Checkout = () => {
             />
           </form>
 
-          <h3 className="text-lg font-semibold mb-4">What’s your PAN?</h3>
+          <h3 className="text-lg font-semibold mb-4">What&nbsp;s your PAN?</h3>
           <form className="grid grid-cols-2 gap-4">
             <input
               type="text"
@@ -146,7 +146,7 @@ const Checkout = () => {
                 className="w-52 h-52 object-cover"
               />
               <div>
-                <p className="w-24 text-sm text-gray-700">Nike Dri-FIT ADV TechKnit Ultra Men's Short-Sleeve Running Top</p>
+                <p className="w-24 text-sm text-gray-700">Nike Dri-FIT ADV TechKnit Ultra Men&nbsp;s Short-Sleeve Running Top</p>
                 <p className="text-sm text-gray-400">Qty 1</p>
                 <p className="text-sm text-gray-400">Size L</p>
                 <p className="text-sm text-gray-400">₹ 3,895.00</p>
@@ -162,7 +162,7 @@ const Checkout = () => {
                   className="w-52 h-52 object-cover"
                 />
                 <div>
-                  <p className="w-24 text-sm text-gray-700">Nike Air Max 97 SE Men's Shoes</p>
+                  <p className="w-24 text-sm text-gray-700">Nike Air Max 97 SE Men&nbsp;s Shoes</p>
                   <p className="text-sm text-gray-400">Qty 1</p>
                   <p className="text-sm text-gray-400">Size UK 8</p>
                   <p className="text-sm text-gray-400">₹ 16,995.00</p>

@@ -132,7 +132,7 @@ const JoinUs = () => {
           </div>
 
           <p className="text-[#8D8D8D] font-extralight">
-            By signing up, you agree to Nike's <span className="underline">Privacy Policy</span> and <span className="underline">Terms of Use</span>.
+            By signing up, you agree to Nike&nbsp;s <span className="underline">Privacy Policy</span> and <span className="underline">Terms of Use</span>.
           </p>
 
          

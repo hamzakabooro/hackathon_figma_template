@@ -1,6 +1,6 @@
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const Tobar = () => {
   return (
@@ -20,14 +20,14 @@ const Tobar = () => {
             <Link href={"/product_detail"}>
               <li className="hover:underline cursor-pointer mt-2 ml-6">Find a Store </li>
             </Link>
-            <div className='w-1 h-4 font-bold text-sm ml-4 '>|</div>
+            <div className="w-1 h-4 font-bold text-sm ml-4 ">|</div>
             <Link href={"/Contact_us"}><li className="hover:underline cursor-pointer mt-2">Help</li>
             </Link>
-            <div className='w-1 h-4 font-bold text-sm '>|</div>
+            <div className="w-1 h-4 font-bold text-sm ">|</div>
             <Link href={"/Join_us"}>
               <li className="hover:underline cursor-pointer hidden sm:block mt-2">Join Us</li>
             </Link>
-            <div className='w-1 h-4 font-bold text-sm '>|</div>
+            <div className="w-1 h-4 font-bold text-sm ">|</div>
             <Link href={"/Login"}>
               <li className="hover:underline cursor-pointer mt-2">Sign In</li>
             </Link>
