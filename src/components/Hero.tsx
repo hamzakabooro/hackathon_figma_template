@@ -30,7 +30,7 @@ const Hero = () => {
           <div className="border rounded-lg p-4 text-center">
             <Image src="/img/Image (4).png" alt="shoes1" width={1000} height={1000} className="object-contain pb-2" />
             <h3 className="text-md font-medium">Nike Air Max Pulse</h3>
-            <p className="text-[#757575]">Women's Shoes</p>
+            <p className="text-[#757575]">Women &aposs Shoes</p>
             <p className="text-lg font-semibold mt-2">₹ 13 995</p>
           </div>
           <div className="border rounded-lg p-4 text-center">
@@ -65,37 +65,36 @@ const Hero = () => {
           <div className="bg-white shadow-md rounded-lg p-4">
             <div className="flex justify-between">
               <p className="w-28 h-6 font-medium text-sm mt-2">Shop Women&nbsp;s</p>
-              <div className='bg-[#F5F5F5] w-8 h-8 rounded-full text-center my-1 p-1'><RiArrowLeftSLine className='w-6 h-6 text-[#CCCCCC]' /></div>
-              <div className='bg-[#E5E5E5] w-8 h-8 rounded-full text-center my-1 p-1'><FiChevronRight className='w-5 h-5 text-[#111111]' /></div>
+              <div className="bg-[#F5F5F5] w-8 h-8 rounded-full text-center my-1 p-1"><RiArrowLeftSLine className="w-6 h-6 text-[#CCCCCC]" /></div>
+              <div className="bg-[#E5E5E5] w-8 h-8 rounded-full text-center my-1 p-1"><FiChevronRight className="w-5 h-5 text-[#111111]" /></div>
             </div>
             <Image src="/img/Image (11).png" alt="Nike Dri-FIT ADV Run Division" width={1000} height={1000} className="w-full h-auto rounded" />
             <h3 className="text-lg font-bold mt-4">Nike Dri-FIT ADV Run Division</h3>
             <p className="text-gray-600">Women&nbsp;s Long-Sleeve Running Top</p>
             <p className="text-gray-800 font-semibold mt-2">₹ 5,295</p>
-          </div>
-
+          </div>"
           <div className="bg-white shadow-md rounded-lg p-4">
-            <div className='flex justify-between'>
-              <p className='w-28 h-6 font-medium text-sm mt-2'>Shop Men&nbsp;s</p>
-              <div className='bg-[#F5F5F5] w-8 h-8 rounded-full text-center my-1 p-1'><RiArrowLeftSLine className='w-6 h-6 text-[#CCCCCC]' /></div>
-              <div className='bg-[#E5E5E5] w-8 h-8 rounded-full text-center my-1 p-1'><FiChevronRight className='w-5 h-5 text-[#111111]' /></div>
+            <div className="flex justify-between">
+              <p className="w-28 h-6 font-medium text-sm mt-2">Shop Men &nbsp;s</p>
+              <div className="bg-[#F5F5F5] w-8 h-8 rounded-full text-center my-1 p-1"><RiArrowLeftSLine className="w-6 h-6 text-[#CCCCCC]" /></div>
+              <div className="bg-[#E5E5E5] w-8 h-8 rounded-full text-center my-1 p-1"><FiChevronRight className="w-5 h-5 text-[#111111]" /></div>
             </div>
             <Image src="/img/Frame (9).png" alt="Nike Fast" width={1000} height={1000} className="w-full h-auto rounded" />
             <h3 className="text-lg font-bold mt-4">Nike Fast</h3>
-            <p className="text-gray-600">Women's Mid-Rise 7/8 Running Leggings with Pockets</p>
+            <p className="text-gray-600">Women &apos s Mid-Rise 7/8 Running Leggings with Pockets</p>
             <p className="text-gray-800 font-semibold mt-2">₹ 3,795</p>
           </div>
         </div>
       </section>
       
       <section className="p-4">
-        <h2 className='text-lg font-semibold mb-4'>Don't Miss</h2>
+        <h2 className="text-lg font-semibold mb-4">Don  Miss</h2>
         <Image src="/img/Image (6).png" alt="section img" width={1000} height={1000} className="w-full h-auto max-w-[1344px] mx-auto" />
         <div className="w-full bg-[#F5F5F5] flex flex-col items-center justify-center">
           <div className="text-center pt-8 mb-8">
-            <h1 className='text-2xl font-bold text-[#111111]'>FLIGHT ESSENTIALS</h1>
-            <p className='text-gray-600 mt-2'>Your built-to-last, All-week wears_ but with style only Jordan Brand can deliver.</p>
-            <Link href={"/All_porducts"}> <button className='bg-[#111111] text-white rounded-full pl-4 pr-4 pt-1 pb-1 mt-4'>Show more</button></Link>
+            <h1 className="text-2xl font-bold text-[#111111]">FLIGHT ESSENTIALS</h1>
+            <p className="text-gray-600 mt-2">Your built-to-last, All-week wears_ but with style only Jordan Brand can deliver.</p>
+            <Link href={"/All_porducts"}> <button className="bg-[#111111] text-white rounded-full pl-4 pr-4 pt-1 pb-1 mt-4">Show more</button></Link>
            
           </div>
         </div>

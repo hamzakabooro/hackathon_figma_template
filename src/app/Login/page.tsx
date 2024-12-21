@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image'; 
+import React from"react";
+import Image from "next/image"; 
 
 const Login = () => {
   return (
@@ -65,7 +65,7 @@ const Login = () => {
 
           
           <p className='text-[#8D8D8D] font-extralight'>
-            By logging in, you agree to Nike's <span className='underline'>Privacy Policy</span> and <span className='underline'>Terms of Use</span>.
+            By logging in, you agree to Nike quot& s <span className='underline'>Privacy Policy</span> and <span className='underline'>Terms of Use</span>.
           </p>
 
           
