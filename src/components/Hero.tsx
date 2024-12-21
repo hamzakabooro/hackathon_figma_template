@@ -36,13 +36,13 @@ const Hero = () => {
           <div className="border rounded-lg p-4 text-center">
             <Image src="/img/Image (4).png" alt="shoes2" width={1000} height={1000} className="object-contain pb-2" />
             <h3 className="text-md font-medium">Nike Air Max Pulse</h3>
-            <p className="text-[#757575]">Men &nbsp;s Shoes</p>
+            <p className="text-[#757575]">Men&quot;s Shoes</p>
             <p className="text-lg font-semibold mt-2">₹ 13 995</p>
           </div>
           <div className="border rounded-lg p-4 text-center">
             <Image src="/img/shos3.png" alt="shoes3" width={1000} height={1000} className="object-contain pb-2"  />
             <h3 className="text-md font-medium">Nike Air Max 97 SE</h3>
-            <p className="text-[#757575]">Men &nbsp;s Shoes</p>
+            <p className="text-[#757575]">Men &quot;s Shoes</p>
             <p className="text-lg font-semibold mt-2">₹ 16 995</p>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white shadow-md rounded-lg p-4">
             <div className="flex justify-between">
-              <p className="w-28 h-6 font-medium text-sm mt-2">Shop Women&nbsp;s</p>
+              <p className="w-28 h-6 font-medium text-sm mt-2">Shop Women&quot;s</p>
               <div className="bg-[#F5F5F5] w-8 h-8 rounded-full text-center my-1 p-1"><RiArrowLeftSLine className="w-6 h-6 text-[#CCCCCC]" /></div>
               <div className="bg-[#E5E5E5] w-8 h-8 rounded-full text-center my-1 p-1"><FiChevronRight className="w-5 h-5 text-[#111111]" /></div>
             </div>
@@ -75,7 +75,7 @@ const Hero = () => {
           </div>"
           <div className="bg-white shadow-md rounded-lg p-4">
             <div className="flex justify-between">
-              <p className="w-28 h-6 font-medium text-sm mt-2">Shop Men &nbsp;s</p>
+              <p className="w-28 h-6 font-medium text-sm mt-2">Shop Men&quot;s</p>
               <div className="bg-[#F5F5F5] w-8 h-8 rounded-full text-center my-1 p-1"><RiArrowLeftSLine className="w-6 h-6 text-[#CCCCCC]" /></div>
               <div className="bg-[#E5E5E5] w-8 h-8 rounded-full text-center my-1 p-1"><FiChevronRight className="w-5 h-5 text-[#111111]" /></div>
             </div>
