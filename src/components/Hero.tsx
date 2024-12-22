@@ -42,7 +42,7 @@ const Hero = () => {
           <div className="border rounded-lg p-4 text-center">
             <Image src="/img/shos3.png" alt="shoes3" width={1000} height={1000} className="object-contain pb-2"  />
             <h3 className="text-md font-medium">Nike Air Max 97 SE</h3>
-            <p className="text-[#757575]">Men &quot;s Shoes</p>
+            <p className="text-[#757575]">Men s Shoes</p>
             <p className="text-lg font-semibold mt-2">₹ 16 995</p>
           </div>
         </div>
@@ -64,31 +64,31 @@ const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white shadow-md rounded-lg p-4">
             <div className="flex justify-between">
-              <p className="w-28 h-6 font-medium text-sm mt-2">Shop Women&quot;s</p>
+              <p className="w-28 h-6 font-medium text-sm mt-2">Shop Womens</p>
               <div className="bg-[#F5F5F5] w-8 h-8 rounded-full text-center my-1 p-1"><RiArrowLeftSLine className="w-6 h-6 text-[#CCCCCC]" /></div>
               <div className="bg-[#E5E5E5] w-8 h-8 rounded-full text-center my-1 p-1"><FiChevronRight className="w-5 h-5 text-[#111111]" /></div>
             </div>
             <Image src="/img/Image (11).png" alt="Nike Dri-FIT ADV Run Division" width={1000} height={1000} className="w-full h-auto rounded" />
             <h3 className="text-lg font-bold mt-4">Nike Dri-FIT ADV Run Division</h3>
-            <p className="text-gray-600">Women&nbsp;s Long-Sleeve Running Top</p>
+            <p className="text-gray-600">Womens Long-Sleeve Running Top</p>
             <p className="text-gray-800 font-semibold mt-2">₹ 5,295</p>
           </div>
           <div className="bg-white shadow-md rounded-lg p-4">
             <div className="flex justify-between">
-              <p className="w-28 h-6 font-medium text-sm mt-2">Shop Men&quot;s</p>
+              <p className="w-28 h-6 font-medium text-sm mt-2">Shop Mens</p>
               <div className="bg-[#F5F5F5] w-8 h-8 rounded-full text-center my-1 p-1"><RiArrowLeftSLine className="w-6 h-6 text-[#CCCCCC]" /></div>
               <div className="bg-[#E5E5E5] w-8 h-8 rounded-full text-center my-1 p-1"><FiChevronRight className="w-5 h-5 text-[#111111]" /></div>
             </div>
             <Image src="/img/Frame (9).png" alt="Nike Fast" width={1000} height={1000} className="w-full h-auto rounded" />
             <h3 className="text-lg font-bold mt-4">Nike Fast</h3>
-            <p className="text-gray-600">Women &apos s Mid-Rise 7/8 Running Leggings with Pockets</p>
+            <p className="text-gray-600">Women &apos; s Mid-Rise 7/8 Running Leggings with Pockets</p>
             <p className="text-gray-800 font-semibold mt-2">₹ 3,795</p>
           </div>
         </div>
       </section>
       
       <section className="p-4">
-        <h2 className="text-lg font-semibold mb-4">Don  Miss</h2>
+        <h2 className="text-lg font-semibold mb-4">Dont  Miss</h2>
         <Image src="/img/Image (6).png" alt="section img" width={1000} height={1000} className="w-full h-auto max-w-[1344px] mx-auto" />
         <div className="w-full bg-[#F5F5F5] flex flex-col items-center justify-center">
           <div className="text-center pt-8 mb-8">
@@ -151,9 +151,9 @@ const Hero = () => {
             <h3 className="text-xl font-bold mb-4">Kids&nbsp;</h3>
             <ul className="space-y-2 text-[#7E7E7E]">
               <li>Infant & Toddler Shoes</li>
-              <li>Kids&nbsp; Shoes</li>
-              <li>Kids&nbsp;Jordan Shoes</li>
-              <li>Kids&nbsp;Basketball Shoes</li>
+              <li>Kids Shoes</li>
+              <li>Kids Jordan Shoes</li>
+              <li>Kids Basketball Shoes</li>
             </ul>
           </div>
         </div>
