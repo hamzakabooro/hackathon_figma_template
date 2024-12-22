@@ -30,13 +30,13 @@ const Hero = () => {
           <div className="border rounded-lg p-4 text-center">
             <Image src="/img/Image (4).png" alt="shoes1" width={1000} height={1000} className="object-contain pb-2" />
             <h3 className="text-md font-medium">Nike Air Max Pulse</h3>
-            <p className="text-[#757575]">Women &aposs Shoes</p>
+            <p className="text-[#757575]">Women s Shoes</p>
             <p className="text-lg font-semibold mt-2">₹ 13 995</p>
           </div>
           <div className="border rounded-lg p-4 text-center">
             <Image src="/img/Image (4).png" alt="shoes2" width={1000} height={1000} className="object-contain pb-2" />
             <h3 className="text-md font-medium">Nike Air Max Pulse</h3>
-            <p className="text-[#757575]">Men&quot;s Shoes</p>
+            <p className="text-[#757575]">Men s Shoes</p>
             <p className="text-lg font-semibold mt-2">₹ 13 995</p>
           </div>
           <div className="border rounded-lg p-4 text-center">
@@ -81,7 +81,7 @@ const Hero = () => {
             </div>
             <Image src="/img/Frame (9).png" alt="Nike Fast" width={1000} height={1000} className="w-full h-auto rounded" />
             <h3 className="text-lg font-bold mt-4">Nike Fast</h3>
-            <p className="text-gray-600">Women &apos; s Mid-Rise 7/8 Running Leggings with Pockets</p>
+            <p className="text-gray-600">Womens Mid-Rise 7/8 Running Leggings with Pockets</p>
             <p className="text-gray-800 font-semibold mt-2">₹ 3,795</p>
           </div>
         </div>
@@ -148,7 +148,7 @@ const Hero = () => {
           </div>
     
           <div>
-            <h3 className="text-xl font-bold mb-4">Kids&nbsp;</h3>
+            <h3 className="text-xl font-bold mb-4">Kid s </h3>
             <ul className="space-y-2 text-[#7E7E7E]">
               <li>Infant & Toddler Shoes</li>
               <li>Kids Shoes</li>
