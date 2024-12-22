@@ -1,7 +1,7 @@
-import Link from "next/link";
-import { FiChevronRight } from "react-icons/fi";
-import { RiArrowLeftSLine } from "react-icons/ri";
-import Image from "next/image";
+import Link from 'next/link';
+import { FiChevronRight } from 'react-icons/fi';
+import { RiArrowLeftSLine } from 'react-icons/ri';
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
             <h1 className="text-2xl font-bold text-[#111111]">Nike Air Max Pulse</h1>
             <p className="text-gray-600 mt-2">
               Extreme comfort. Hyper durable. Max volume. Introducing the Air Max Pulse <br />
-              —designed to push you past your limits and help you go to the max.
+              designed to push you past your limits and help you go to the max.
             </p>
             <div className="ml-1 flex flex-col md:flex-row justify-center">
               <button className="bg-[#111111] text-white rounded-full p-2 m-1">Notify Me</button>
@@ -69,8 +69,8 @@ const Hero = () => {
               <div className="bg-[#E5E5E5] w-8 h-8 rounded-full text-center my-1 p-1"><FiChevronRight className="w-5 h-5 text-[#111111]" /></div>
             </div>
             <Image src="/img/Image (11).png" alt="Nike Dri-FIT ADV Run Division" width={1000} height={1000} className="w-full h-auto rounded" />
-            <h3 className="text-lg font-bold mt-4">Nike Dri-FIT ADV Run Division</h3>
-            <p className="text-gray-600">Womens Long-Sleeve Running Top</p>
+            <h3 className="text-lg font-bold mt-4">Nike Dri FIT ADV Run Division</h3>
+            <p className="text-gray-600">Womens Long Sleeve Running Top</p>
             <p className="text-gray-800 font-semibold mt-2">₹ 5,295</p>
           </div>
           <div className="bg-white shadow-md rounded-lg p-4">
@@ -81,7 +81,7 @@ const Hero = () => {
             </div>
             <Image src="/img/Frame (9).png" alt="Nike Fast" width={1000} height={1000} className="w-full h-auto rounded" />
             <h3 className="text-lg font-bold mt-4">Nike Fast</h3>
-            <p className="text-gray-600">Womens Mid-Rise 7/8 Running Leggings with Pockets</p>
+            <p className="text-gray-600">Womens Mid Rise 7 8 Running Leggings with Pockets</p>
             <p className="text-gray-800 font-semibold mt-2">₹ 3,795</p>
           </div>
         </div>
@@ -93,7 +93,7 @@ const Hero = () => {
         <div className="w-full bg-[#F5F5F5] flex flex-col items-center justify-center">
           <div className="text-center pt-8 mb-8">
             <h1 className="text-2xl font-bold text-[#111111]">FLIGHT ESSENTIALS</h1>
-            <p className="text-gray-600 mt-2">Your built-to-last, All-week wears_ but with style only Jordan Brand can deliver.</p>
+            <p className="text-gray-600 mt-2">Your built to last, All week wears but with style only Jordan Brand can deliver.</p>
             <Link href={"/All_porducts"}> <button className="bg-[#111111] text-white rounded-full pl-4 pr-4 pt-1 pb-1 mt-4">Show more</button></Link>
            
           </div>
