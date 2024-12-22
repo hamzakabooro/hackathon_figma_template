@@ -72,7 +72,7 @@ const Hero = () => {
             <h3 className="text-lg font-bold mt-4">Nike Dri-FIT ADV Run Division</h3>
             <p className="text-gray-600">Women&nbsp;s Long-Sleeve Running Top</p>
             <p className="text-gray-800 font-semibold mt-2">₹ 5,295</p>
-          </div>"
+          </div>
           <div className="bg-white shadow-md rounded-lg p-4">
             <div className="flex justify-between">
               <p className="w-28 h-6 font-medium text-sm mt-2">Shop Men&quot;s</p>
